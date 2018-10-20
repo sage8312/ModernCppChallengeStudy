@@ -30,6 +30,7 @@ PRIVATE
 target_link_libraries(${PROJECT_NAME}
 PRIVATE
     GSL
+    pthread
 )
 
 install(TARGETS ${PROJECT_NAME}
